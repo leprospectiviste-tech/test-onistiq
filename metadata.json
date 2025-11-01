@@ -1,0 +1,5 @@
+{
+  "name": "La Dolce Vita Restaurant",
+  "description": "An application for the Italian restaurant 'La Dolce Vita' that allows customers to view the menu, place orders for takeout or delivery, choose a time slot, and pay directly in the app.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,112 @@
+
+import { Category, Dish } from './types';
+
+export const MENU_DATA: Dish[] = [
+  // Entrées
+  {
+    id: 1,
+    name: 'Bruschetta al Pomodoro',
+    description: 'Pain grillé frotté à l\'ail et garni de tomates fraîches, basilic et huile d\'olive.',
+    price: 8.50,
+    category: Category.Entrees,
+    imageUrl: 'https://picsum.photos/id/292/600/400',
+  },
+  {
+    id: 2,
+    name: 'Carpaccio di Manzo',
+    description: 'Fines tranches de bœuf cru, roquette, copeaux de parmesan et vinaigrette au citron.',
+    price: 13.00,
+    category: Category.Entrees,
+    imageUrl: 'https://picsum.photos/id/1018/600/400',
+  },
+  {
+    id: 3,
+    name: 'Insalata Caprese',
+    description: 'Tomates, mozzarella de bufflonne, basilic frais, huile d\'olive extra vierge.',
+    price: 10.00,
+    category: Category.Entrees,
+    imageUrl: 'https://picsum.photos/id/1080/600/400',
+  },
+  {
+    id: 4,
+    name: 'Arancini Siciliani',
+    description: 'Boules de riz safrané farcies à la viande et aux petits pois, panées et frites.',
+    price: 9.50,
+    category: Category.Entrees,
+    imageUrl: 'https://picsum.photos/id/431/600/400',
+  },
+  // Pâtes
+  {
+    id: 5,
+    name: 'Penne all\'Arrabbiata',
+    description: 'Pâtes penne avec une sauce tomate épicée, ail et piment rouge.',
+    price: 12.00,
+    category: Category.Pates,
+    imageUrl: 'https://picsum.photos/id/102/600/400',
+  },
+  {
+    id: 6,
+    name: 'Spaghetti Carbonara',
+    description: 'La recette traditionnelle avec guanciale, jaunes d\'œufs, pecorino romano et poivre noir.',
+    price: 14.50,
+    category: Category.Pates,
+    imageUrl: 'https://picsum.photos/id/218/600/400',
+  },
+  {
+    id: 7,
+    name: 'Lasagne alla Bolognese',
+    description: 'Couches de pâtes fraîches, sauce bolognaise riche, béchamel et parmesan gratiné.',
+    price: 16.00,
+    category: Category.Pates,
+    imageUrl: 'https://picsum.photos/id/488/600/400',
+  },
+  {
+    id: 8,
+    name: 'Tagliatelle al Tartufo',
+    description: 'Pâtes fraîches maison avec une sauce crémeuse à la truffe noire.',
+    price: 18.50,
+    category: Category.Pates,
+    imageUrl: 'https://picsum.photos/id/658/600/400',
+  },
+  {
+    id: 9,
+    name: 'Gnocchi al Pesto',
+    description: 'Gnocchi de pommes de terre moelleux, sauce pesto au basilic, pignons de pin et parmesan.',
+    price: 15.00,
+    category: Category.Pates,
+    imageUrl: 'https://picsum.photos/id/1060/600/400',
+  },
+  {
+    id: 10,
+    name: 'Ravioli Ricotta e Spinaci',
+    description: 'Raviolis farcis à la ricotta et aux épinards, servis avec une sauce sauge et beurre.',
+    price: 15.50,
+    category: Category.Pates,
+    imageUrl: 'https://picsum.photos/id/312/600/400',
+  },
+  // Desserts
+  {
+    id: 11,
+    name: 'Tiramisù Classico',
+    description: 'Biscuits cuillère imbibés de café, crème mascarpone onctueuse et cacao en poudre.',
+    price: 7.50,
+    category: Category.Desserts,
+    imageUrl: 'https://picsum.photos/id/225/600/400',
+  },
+  {
+    id: 12,
+    name: 'Panna Cotta',
+    description: 'Crème cuite à la vanille, servie avec un coulis de fruits rouges de saison.',
+    price: 7.00,
+    category: Category.Desserts,
+    imageUrl: 'https://picsum.photos/id/365/600/400',
+  },
+  {
+    id: 13,
+    name: 'Cannoli Siciliani',
+    description: 'Coques croustillantes garnies d\'une crème sucrée à la ricotta et pépites de chocolat.',
+    price: 8.00,
+    category: Category.Desserts,
+    imageUrl: 'https://picsum.photos/id/402/600/400',
+  },
+];
